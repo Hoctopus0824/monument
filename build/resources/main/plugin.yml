@@ -1,0 +1,13 @@
+name: MonumentPlugin
+version: 1.0
+main: org.plugin.monumentplugin.MonumentPlugin
+api-version: 1.16
+commands:
+  teammanage:
+    description: 팀을 관리하는 명령어입니다.
+  monument:
+    description: 신상을 소환하는 명령어입니다
+permissions:
+  monumentplugin.use:
+    description: 플러그인을 사용할 수 있는 권한입니다.
+    default: true
